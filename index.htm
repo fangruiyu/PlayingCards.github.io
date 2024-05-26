@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>21點遊戲</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>21點遊戲</h1>
+        <div class="cards">
+            <div id="player">
+                <h2>玩家的牌</h2>
+                <div id="player-cards"></div>
+                <p id="player-points">點數: 0</p>
+            </div>
+            <div id="banker">
+                <h2>莊家的牌</h2>
+                <div id="banker-cards"></div>
+                <p id="banker-points">點數: 0</p>
+            </div>
+        </div>
+        <div class="controls">
+            <button id="deal">發牌</button>
+            <button id="hit">加牌</button>
+            <button id="stand">停牌</button>
+            <button id="restart">重新開始</button>
+        </div>
+        <p id="message"></p>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
